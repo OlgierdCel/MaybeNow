@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
     fun showNextCards(){
         i++
-        if(Cards.cards.size>=i){
+        if(Cards.cards.size<=i){
             i = 0
         }
         binding.card.text = Cards.cards[i].ask
