@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MaybeNow</string>
+    <string name="go_menu">go menu</string>
+    <string name="next_card">next card</string>
+    <string name="back">Back</string>
+    <string name="add_by_csv">add by csv</string>
+    <string name="add_by_hand">add by hand</string>
+</resources>
