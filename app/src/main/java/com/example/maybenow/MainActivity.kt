@@ -27,14 +27,18 @@ class MainActivity : AppCompatActivity() {
         // Ustaw widok korzenia z bindingu jako content view
         setContentView(binding.root)
 
+        // zmiana Activity na Menu
         binding.goMenu.setOnClickListener {
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
-        // pokazanie
+
+        // dodanie eventu odnośnie przelaczania ask-answer
         binding.card.setOnClickListener {
             showRevers()
         }
+
+        // zmiana karty na nastepna
         binding.goNext.setOnClickListener {
             showNextCards()
         }
