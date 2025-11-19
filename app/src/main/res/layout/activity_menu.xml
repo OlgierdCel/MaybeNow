@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MenuActivity">
-    >
+
 
 
   <LinearLayout
@@ -32,6 +32,12 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="@string/add_by_hand"
+          />
+      <Button
+          android:id="@+id/dog_fact"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/dog_fact"
           />
 
   </LinearLayout>

@@ -5,4 +5,5 @@
     <string name="back">Back</string>
     <string name="add_by_csv">add by csv</string>
     <string name="add_by_hand">add by hand</string>
+    <string name="dog_fact">Dog Fact</string>
 </resources>
