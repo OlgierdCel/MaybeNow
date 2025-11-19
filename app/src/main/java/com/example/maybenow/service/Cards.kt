@@ -6,6 +6,8 @@ class Cards {
     companion object {
         val cards: MutableList<Card> = mutableListOf(
             Card("Witaj", "odpowiedz"),
+            Card("Szymon", "Gołębiewski"),
+            Card("Bartosz","Salak")
         )
     }
 
