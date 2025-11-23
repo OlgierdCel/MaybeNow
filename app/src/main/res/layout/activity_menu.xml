@@ -6,40 +6,38 @@
     tools:context=".MenuActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
 
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="center"
-      android:orientation="vertical"
-      >
-      <Button
-          android:id="@+id/go_back"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/back"
-          />
+        <Button
+            android:id="@+id/go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
 
-      <Button
-          android:id="@+id/add_csv"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/add_by_csv"
-          />
+        <Button
+            android:id="@+id/add_csv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_by_csv" />
 
-      <Button
-          android:id="@+id/add_hand"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/add_by_hand"
-          />
-      <Button
-          android:id="@+id/dog_fact"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/dog_fact"
-          />
+        <Button
+            android:id="@+id/add_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_by_hand" />
 
-  </LinearLayout>
+        <Button
+            android:id="@+id/dog_fact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dog_fact" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
