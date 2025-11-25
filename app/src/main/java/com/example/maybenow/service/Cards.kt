@@ -4,7 +4,7 @@ class Cards {
 
     // to jest po to zeby to bylo static
     companion object {
-        val cards: MutableList<Card> = mutableListOf(
+        var cards: MutableList<Card> = mutableListOf(
             Card("Pytanie", "Opowiedz"),
             Card("Working", "Pracować"),
             Card("Standing","stać"),
