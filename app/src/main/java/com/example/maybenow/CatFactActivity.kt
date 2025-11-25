@@ -12,7 +12,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
 
-class DogFactActivity : AppCompatActivity() {
+class CatFactActivity : AppCompatActivity() {
 
     private lateinit var binding: DogFactBinding
 

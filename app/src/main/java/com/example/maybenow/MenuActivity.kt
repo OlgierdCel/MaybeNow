@@ -23,7 +23,7 @@ class MenuActivity : AppCompatActivity() {
         }
 
         binding.dogFact.setOnClickListener {
-            val intent = Intent(this, DogFactActivity::class.java)
+            val intent = Intent(this, CatFactActivity::class.java)
             startActivity(intent)
         }
     }
