@@ -13,14 +13,4 @@ class Cards {
         )
     }
 
-    public fun addCard(ask: String, answer: String){
-        cards.add(
-            Card(ask, answer)
-        )
-    }
-
-    public fun getCards(): MutableList<Card> {
-        return cards
-    }
-
 }
