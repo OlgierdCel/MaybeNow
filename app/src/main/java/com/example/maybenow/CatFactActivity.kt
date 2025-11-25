@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.example.maybenow.databinding.DogFactBinding
+import com.example.maybenow.databinding.CatFactBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -14,13 +14,13 @@ import org.json.JSONObject
 
 class CatFactActivity : AppCompatActivity() {
 
-    private lateinit var binding: DogFactBinding
+    private lateinit var binding: CatFactBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         // Inicjalizacja bindingu do dog_fact.xml
-        binding = DogFactBinding.inflate(layoutInflater)
+        binding = CatFactBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
