@@ -5,9 +5,11 @@ class Cards {
     // to jest po to zeby to bylo static
     companion object {
         val cards: MutableList<Card> = mutableListOf(
-            Card("Witaj", "odpowiedz"),
-            Card("Szymon", "Gołębiewski"),
-            Card("Bartosz","Salak")
+            Card("Pytanie", "Opowiedz"),
+            Card("Working", "Pracować"),
+            Card("Standing","stać"),
+            Card("showing","pokazywać"),
+            Card("Class","Klasa")
         )
     }
 
