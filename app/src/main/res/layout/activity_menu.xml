@@ -69,7 +69,7 @@
 
         <!-- DOG FACT -->
         <Button
-            android:id="@+id/dog_fact"
+            android:id="@+id/cat_fact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
