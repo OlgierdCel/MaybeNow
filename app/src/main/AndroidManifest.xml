@@ -25,6 +25,10 @@
 
         <activity android:name=".MenuActivity" />
         <activity android:name=".CatFactActivity" />
+        <activity
+            android:name=".ManageCardsActivity"
+            android:exported="false" />
+
 
 
 </application>

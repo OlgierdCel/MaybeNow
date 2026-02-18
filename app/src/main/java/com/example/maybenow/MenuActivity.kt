@@ -26,5 +26,11 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, CatFactActivity::class.java)
             startActivity(intent)
         }
+        binding.addHand.setOnClickListener {
+
+            val intent = Intent(this, ManageCardsActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }
